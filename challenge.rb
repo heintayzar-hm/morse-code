@@ -51,7 +51,7 @@ def morse_to_words(morse_codes)
    output += morse_to_word(morse_code)
     output += " "
   end
-  return output
+  return output.upcase
 end
 
 print morse_to_words(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
